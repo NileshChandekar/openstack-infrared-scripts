@@ -1,5 +1,4 @@
 export YOURLABSERVER=127.0.0.2
-
 source ~/.venv_infrared/bin/activate
 cd ~/.venv_infrared/infrared
 
