@@ -20,13 +20,7 @@ infrared tripleo-undercloud -v --version 10 --images-task=rpm --build=ga
 
 infrared tripleo-overcloud \
 --deployment-files virt \
---storage-backend lvm \
---network-protocol ipv4 \
---overcloud-debug yes \
 --introspect yes \
 --tagging yes \
 --deploy yes \
---containers no \
---collect-ansible-facts True \
 --version 10
-
